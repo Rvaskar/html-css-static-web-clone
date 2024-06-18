@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('img/background.webp');
+    font-family: 'Balsamiq Sans', cursive;
+    /* background: url('bg.jpg'); */
+
+}
+.left{
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    display: inline-block;
+    text-align: center;
+    
+    /* margin: ; */
+}
+.left img{
+    width: 50px;
+    text-align: center;
+    
+}
+.left div{
+    line-height: 19px;
+    font-size: 26px;
+    
+}
+.mid{
+    display: block;
+    width: 40%;
+    line-height: 5px;
+    margin: 20px auto;
+    /* border: 2px solid rgb(28, 254, 3); */
+
+    
+}
+.navbar{
+    display: inline-block;
+    
+}
+.navbar li{
+    display: inline-block;
+    
+}
+.navbar li a{
+    color: rgb(5, 1, 1);
+    text-decoration: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    font-weight: 115px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(44, 14, 240);
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid rgb(25, 0, 255); */
+
+
+}
+.btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.btn:hover{
+    background-color: rgb(84, 82, 82);
+}
+
+.container{
+    /* border: 2px solid white; */
+    margin: 200px 160px;
+    padding: 81px 20px;
+    width: 33%;
+    color: aliceblue;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+
+.form-group input{
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    width: 400px;
+    padding: 5px;
+    border-radius: 2px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.container button{
+    display: block;
+    width: 33%;
+    padding: 15px;
+    margin: 10px;
+    float: right;
+
+}
