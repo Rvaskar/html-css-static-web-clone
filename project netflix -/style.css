@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-family: sans-serif;
   /* height: 100vh; */
-  background: url("/img/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background: url("./img/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_large.jpg");
   background-repeat: no-repeat;
   /* background-size: 100%; */
   object-fit: cover;

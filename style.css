@@ -1,0 +1,50 @@
+/* .super-navbar{
+    margin: 0;
+    width: fit-content;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    padding: 2px;
+    z-index: 100;
+    background-color: red;
+}
+.super-navbar ul{
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 5px;
+}
+.super-navbar ul li{
+    padding: 5px 0;
+}
+.super-navbar ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+} */
+ .super-navbar{
+    margin: 0;
+    width: 100%;
+    top: 0px;
+    position: sticky;
+    padding: 0px;
+    height: 30px;
+    z-index: 100;
+    background-color: orange;
+}
+.super-navbar ul{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+
+}
+.super-navbar ul li{
+    padding: 5px 0;
+}
+.super-navbar ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
