@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>js Games</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css">
+    <link href="./style-guess.css" rel="stylesheet">
+    <link href="./spc.css" rel="stylesheet">
+    <link href="./select.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="super-navbar">
+        <ul>       
+            <li><a href="../project abode/index.html">abode</a></li>
+            <li><a href="../combine_all/index.html">Js Games</a></li>
+            <li><a href="../project netflix -/index.html">netflix</a></li>
+            <li><a href="../Project alpha/alpha.html">alpha</a></li>
+            <li><a href="../burgur restaurant/index.html">restaurant</a></li>
+            <li><a href="../gym website/index.html">gym</a></li>
+        </ul>
+    </div>
+    
+   <div class="main-body">
+    <div id="stone-paper-sci">
+        <h1>Stone, Paper, Scissors</h1>
+        <div class="game-container">
+            <div class="image-container">
+                <img src="./719mywMBUJL.jpg" onclick="selectChoice('stone')" alt="Stone">
+                <img src="./download.jpg" onclick="selectChoice('paper')" alt="Paper">
+                <img src="./scissor.jpg " onclick="selectChoice('scissors')" alt="Scissors">
+            </div>
+            <div class="result">
+                <span>Results: <p id="result-text">Choose your move!</p></span>
+                <span>computer Choice: <p id="cc">Choose cm move!</p></span>
+            </div>
+        </div>
+
+    </div>
+    <div id="guess-number">
+        <div class="main">
+            <h1>Guess the Number Game</h1>
+            <div id="container">
+
+                <label for="guess-input">Enter your guess Number (1-100) :</label>
+                <input type="number" id="guess-input">
+
+                <span>
+                    <button id="guess-button">Guess</button>
+                </span>
+                <h2 class="result-div">Result: <p id="result-message">Enter the number and see result 🤔</p>
+                </h2>
+
+                <h4>remaining chances = <span id="chances">8</span></h4>
+                <button type="reset" id="guess-restart">restart</button>
+            </div>
+        </div>
+    </div>
+    <div class="select-card">
+        <div class="body">
+            <button class="button" onclick="showNumber(event , 'active')" id="btn1">
+                5
+            </button>
+            <button class="button" onclick="showNumber(event , 'active')" id="btn2">
+                6
+            </button>
+            <button class="button" onclick="showNumber(event , 'active')" id="btn3">
+                10
+            </button>
+            <button class="button" onclick="showNumber(event , 'active')" id="btn4">
+                9
+            </button>
+            <button class="button" onclick="showNumber(event , 'active')" id="btn5">
+                4
+            </button>
+        </div>
+    
+        <p>choose below number from above card</p>
+        <h1>
+
+            <div id="number-auto"> </div>
+        </h1>
+        <h1>
+        <div id="resultMessage1"> win / loose</div>
+    </h1>
+        <div id="resultMessage"> restart in </div>
+    </div>
+   </div>
+    <script src="guess.js"></script>
+    <script src="spc.js"></script>
+    <script src="select.js"></script>
+</body>
+
+</html>
